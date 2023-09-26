@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+.moon-ball {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-image: linear-gradient(white,rgb(194, 189, 245),rgb(204, 235, 247));
+    border-radius: 50%; 
+}
+
+.cs-ball {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 120px;
+    margin-top: 24px;
+    border-radius: 50%;
+}
